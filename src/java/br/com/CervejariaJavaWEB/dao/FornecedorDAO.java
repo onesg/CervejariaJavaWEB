@@ -110,7 +110,32 @@ public class FornecedorDAO implements GenericDAO{
 
     @Override
     public Object _Carregar(Integer id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        FornecedorMODEL fornecedorMODEL = new FornecedorMODEL();
+        try {
+            
+            String SQL = "SELECT * FROM fornecedor WHERE id_fornecedor = ?;";
+            
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.stmt.setInt(1, id);
+            this.rs = this.stmt.executeQuery();
+            rs.next();
+            
+            fornecedorMODEL.setId(rs.getInt("id_fornecedor"));
+            fornecedorMODEL.setCnpj(rs.getString("cnpj_fornecedor"));
+            fornecedorMODEL.setRazao_social(rs.getString("razao_social_fornecedor"));
+            fornecedorMODEL.setEmail(rs.getString("email_fornecedor"));
+            fornecedorMODEL.setTelefone(rs.getString("telefone_fornecedor"));
+            fornecedorMODEL.setEndereco(rs.getString("endereco_fornecedor"));
+            fornecedorMODEL.setCidade(rs.getString("cidade_fornecedor"));
+            fornecedorMODEL.setEstado(rs.getString("estado_fornecedor"));
+            
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mFornecedorDAO - Erro ao Carregar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
+        return fornecedorMODEL;
     }
     
 }

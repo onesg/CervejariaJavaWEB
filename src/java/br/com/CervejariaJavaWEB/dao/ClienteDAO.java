@@ -105,7 +105,30 @@ public class ClienteDAO implements GenericDAO {
 
     @Override
     public Object _Carregar(Integer id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        ClienteMODEL clienteMODEL = new ClienteMODEL();
+        try {
+            
+            String SQL = "SELECT * FROM cliente WHERE id_cliente = ?;";
+            
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.stmt.setInt(1, id);
+            this.rs = this.stmt.executeQuery();
+            rs.next();
+            
+            clienteMODEL.setId(rs.getInt("id_cliente"));
+            clienteMODEL.setNome(rs.getString("nome_cliente"));
+            clienteMODEL.setEmail(rs.getString("email_cliente"));
+            clienteMODEL.setTelefone(rs.getString("telefone_cliente"));
+            clienteMODEL.setLogin(rs.getString("login_cliente"));
+            clienteMODEL.setSenha(rs.getString("senha_cliente"));
+            
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mClienteDAO - Erro ao Carregar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
+        return clienteMODEL;
     }
 
 }

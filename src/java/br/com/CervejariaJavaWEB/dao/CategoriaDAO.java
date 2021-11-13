@@ -101,7 +101,29 @@ public class CategoriaDAO implements GenericDAO{
 
     @Override
     public Object _Carregar(Integer id) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        CategoriaMODEL categoriaMODEL = new CategoriaMODEL();
+        try {
+            
+            String SQL = "SELECT * FROM categoria WHERE id_categoria = ?;";
+            
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.stmt.setInt(1, id);
+            this.rs = this.stmt.executeQuery();
+            rs.next();
+            
+            categoriaMODEL.setId(rs.getInt("id_categoria"));
+            categoriaMODEL.setNome(rs.getString("nome_categoria"));
+            categoriaMODEL.setDescricao(rs.getString("descricao_categoria"));
+            
+            
+            
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mCategoriaDAO - Erro ao Carregar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
+        return categoriaMODEL;
     }
     
 }
