@@ -1,0 +1,3 @@
+Esse arquivo serve somente para que a pasta WEB-INF seja incluída dentro do projeto.
+
+;)

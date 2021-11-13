@@ -1,0 +1,11 @@
+# Pastas e arquivos Netbeans
+/build/
+/nbproject/private/
+
+
+# Arquivos pessoais
+src/java/br/com/CervejariaJavaWEB/util/status.txt
+src/java/br/com/CervejariaJavaWEB/util/test.java
+src/java/br/com/CervejariaJavaWEB/util/test2.java
+src/java/br/com/CervejariaJavaWEB/util/test3.java
+
