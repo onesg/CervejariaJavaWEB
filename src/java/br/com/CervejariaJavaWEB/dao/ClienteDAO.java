@@ -84,7 +84,13 @@ public class ClienteDAO implements GenericDAO {
         try {
             ClienteMODEL clienteModel = (ClienteMODEL) object;
             
-            String SQL = "UPDATE cliente SET nome_cliente = ?, email_cliente = ?, telefone_cliente = ?, login_cliente = ?, senha_cliente = ? WHERE id_cliente = ?;";
+            String SQL = "UPDATE cliente SET "
+                    + "nome_cliente = ?, "
+                    + "email_cliente = ?, "
+                    + "telefone_cliente = ?, "
+                    + "login_cliente = ?, "
+                    + "senha_cliente = ? "
+                    + "WHERE id_cliente = ?;";
 
             this.stmt = this.conn.prepareStatement(SQL);
             this.stmt.setString(1, clienteModel.getNome());

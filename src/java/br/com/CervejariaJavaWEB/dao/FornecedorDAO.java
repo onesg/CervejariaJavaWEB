@@ -86,7 +86,39 @@ public class FornecedorDAO implements GenericDAO{
 
     @Override
     public Boolean _Alterar(Object object) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            FornecedorMODEL fornecedorModel = (FornecedorMODEL) object;
+            
+            String SQL = "UPDATE fornecedor SET "
+                    + "cnpj_fornecedor = ?, "
+                    + "razao_social_fornecedor = ?, "
+                    + "email_fornecedor = ?, "
+                    + "telefone_fornecedor = ?, "
+                    + "endereco_fornecedor = ?, "
+                    + "cidade_fornecedor = ?, "
+                    + "estado_fornecedor = ? "
+                    + "WHERE id_fornecedor = ?;";
+
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.stmt.setString(1, fornecedorModel.getCnpj());
+            this.stmt.setString(2, fornecedorModel.getRazao_social());
+            this.stmt.setString(3, fornecedorModel.getEmail());
+            this.stmt.setString(4, fornecedorModel.getTelefone());
+            this.stmt.setString(5, fornecedorModel.getEndereco());
+            this.stmt.setString(6, fornecedorModel.getCidade());
+            this.stmt.setString(7, fornecedorModel.getEstado());
+            this.stmt.setInt(8, fornecedorModel.getId());
+            this.stmt.executeUpdate();
+
+            System.out.println("\u001B[32mFornecedorDAO - Fornecedor " + fornecedorModel.getRazao_social()+ " alterado com sucesso.");
+            return true;
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mFornecedorDAO - Erro ao Alterar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+            return false;
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
     }
 
     @Override

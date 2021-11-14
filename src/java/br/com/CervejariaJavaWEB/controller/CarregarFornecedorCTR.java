@@ -20,7 +20,7 @@ public class CarregarFornecedorCTR extends HttpServlet {
             GenericDAO dao = new FornecedorDAO();
             
             request.setAttribute("fornecedor", dao._Carregar(Integer.parseInt(request.getParameter("id"))));
-            request.getRequestDispatcher("ListarFornecedorCTR").forward(request, response);
+            request.getRequestDispatcher("dashboard_fornecedores_edit.jsp").forward(request, response);
             
         } catch (Exception ex) {
             System.out.println("\u001B[31mCarregarFornecedorCTR - Erro ao carregar fornecedor!! \n\nErro: " + ex.getMessage());

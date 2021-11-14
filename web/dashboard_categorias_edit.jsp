@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard Clientes</title>
+    <title>Dashboard Categorias</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="./_dashboard_css/tailwind.output.css" />
@@ -46,9 +46,7 @@
                 <ul>
                     <!-- INICIO ABA CLIENTES -->
                     <li class="relative px-6 py-3">
-                        <span class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
-                            aria-hidden="true"></span>
-                        <a class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
+                        <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                             href="ListarClienteCTR">
                             <svg class="w-5 h-5" aria-hidden="true" fill="none" stroke-linecap="round"
                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -63,7 +61,9 @@
 
                     <!-- INICIO ABA CATEGORIA -->
                     <li class="relative px-6 py-3">
-                        <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                        <span class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
+                            aria-hidden="true"></span>
+                        <a class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
                             href="ListarCategoriaCTR">
                             <svg class="w-5 h-5" aria-hidden="true" fill="none" stroke-linecap="round"
                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -174,9 +174,7 @@
                 <ul>
                     <!-- INICIO ABA CLIENTES -->
                     <li class="relative px-6 py-3">
-                        <span class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
-                            aria-hidden="true"></span>
-                        <a class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
+                        <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
                             href="ListarClienteCTR">
                             <svg class="w-5 h-5" aria-hidden="true" fill="none" stroke-linecap="round"
                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -191,7 +189,9 @@
 
                     <!-- INICIO ABA CATEGORIA -->
                     <li class="relative px-6 py-3">
-                        <a class="inline-flex items-center w-full text-sm font-semibold transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200"
+                        <span class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg"
+                            aria-hidden="true"></span>
+                        <a class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
                             href="ListarCategoriaCTR">
                             <svg class="w-5 h-5" aria-hidden="true" fill="none" stroke-linecap="round"
                                 stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -257,10 +257,8 @@
                         </template>
                     </li>
                 </ul>
-
                 <!-- INICIO BOTAO -->
                 <!-- FIM BOTAO -->
-
             </div>
         </aside>
         <!-- FIM SIDEBAR MOBILE -->
@@ -413,9 +411,8 @@
                                         </a>
                                     </li>
                                     <li class="flex">
-                                        
                                         <a class="inline-flex items-center w-full px-2 py-1 text-sm font-semibold transition-colors duration-150 rounded-md hover:bg-gray-100 hover:text-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-200"
-                                           onclick="sair()">
+                                            onclick="sair()">
                                             <svg class="w-4 h-4 mr-3" aria-hidden="true" fill="none"
                                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                                 viewBox="0 0 24 24" stroke="currentColor">
@@ -438,7 +435,7 @@
             <main class="h-full overflow-y-auto">
                 <div class="container px-6 mx-auto grid">
 
-                    <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">Editando ${cliente.nome}</h2>
+                    <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">Editando ${categoria.nome}</h2>
 
                     <!-- INICIO ALERTAS -->
                     <div class="grid gap-6 mb-8 md:grid-cols-2 xl:grid-cols-3">
@@ -451,8 +448,8 @@
                             </div>
                             <!-- FIM MENSAGEM ERRO ALTERAR -->
                         <% } %>
-                        </div>
-                        <!-- FIM ALERTAS -->
+                    </div>
+                    <!-- FIM ALERTAS -->
                     
                     <!-- INICIO TABELA -->
                     <div class="w-full overflow-hidden rounded-lg shadow-xs">
@@ -460,11 +457,8 @@
                             <table class="w-full whitespace-no-wrap">
                                 <thead>
                                     <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800">
-                                        <th class="px-4 py-3">Nome</th>
-                                        <th class="px-4 py-3">E-mail</th>
-                                        <th class="px-4 py-3">Telefone</th>
-                                        <th class="px-4 py-3">Usuário</th>
-                                        <th class="px-4 py-3">Senha</th>
+                                        <th class="px-4 py-3">Categoria</th>
+                                        <th class="px-4 py-3">Descrição</th>
                                     </tr>
                                 </thead>
                                 <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
@@ -472,38 +466,20 @@
                                     <!-- INICIO LINHA -->
                                     <tr class="text-gray-700 dark:text-gray-400">
 
-                                        <form action="AlterarClienteCTR" method="POST">
+                                        <form action="AlterarCategoriaCTR" method="POST">
                                         
                                         <!-- INICIO ITEM 1 -->
                                         <td class="px-4 py-3 text-sm">
-                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="hidden" name="form_cliente_edit_id" id="" maxlength="64" value="${cliente.id}" required/>
-                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Digite um nome" type="text" name="form_cliente_edit_nome" id="" maxlength="64" value="${cliente.nome}" required/>
+                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" type="hidden" name="form_categoria_edit_id" id="" maxlength="64" value="${categoria.id}" required/>
+                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Digite um nome" type="text" name="form_categoria_edit_nome" id="" maxlength="64" value="${categoria.nome}" required/>
                                         </td>
                                         <!-- FIM ITEM 1 -->
                                         
                                         <!-- INICIO ITEM 2 -->
                                         <td class="px-4 py-3 text-sm">
-                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Digite um e-mail" type="email" name="form_cliente_edit_email" id="" maxlength="64" value="${cliente.email}" required/>
+                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Digite uma descrição" type="text" name="form_categoria_edit_descricao" id="" maxlength="64" value="${categoria.descricao}" required/>
                                         </td>
                                         <!-- FIM ITEM 2 -->
-                                        
-                                        <!-- INICIO ITEM 3 -->
-                                        <td class="px-4 py-3 text-sm">
-                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="(00) 98888-7777" type="text" name="form_cliente_edit_telefone" id="telefone" maxlength="15" value="${cliente.telefone}" required/>
-                                        </td>
-                                        <!-- FIM ITEM 3 -->
-                                        
-                                        <!-- INICIO ITEM 4 -->
-                                        <td class="px-4 py-3 text-sm">
-                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Digite um nome de usuário" type="text" name="form_cliente_edit_login" id="" maxlength="64" value="${cliente.login}" required/>
-                                        </td>
-                                        <!-- FIM ITEM 4 -->
-                                        
-                                        <!-- INICIO ITEM 5 -->
-                                        <td class="px-4 py-3 text-sm">
-                                            <input class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="Digite uma senha" type="password" name="form_cliente_edit_senha" id="" maxlength="64" value="${cliente.senha}" required/>
-                                        </td>
-                                        <!-- FIM ITEM 5 -->
                                         
                                     </tr>
                                     <!-- FIM LINHA -->
@@ -547,28 +523,6 @@
     </div>
     
     <script>
-            function mascara(o, f) {
-                v_obj = o;
-                v_fun = f;
-                setTimeout("execmascara()", 1);
-            }
-            function execmascara() {
-                v_obj.value = v_fun(v_obj.value);
-            }
-            function mtel(v) {
-                v = v.replace(/\D/g, ""); //Remove tudo o que não é dígito
-                v = v.replace(/^(\d{2})(\d)/g, "($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
-                v = v.replace(/(\d)(\d{4})$/, "$1-$2"); //Coloca hífen entre o quarto e o quinto dígitos
-                return v;
-            }
-            function id(el) {
-                return document.getElementById(el);
-            }
-            window.onload = function () {
-                id('telefone').onkeyup = function () {
-                    mascara(this, mtel);
-                };
-            };
             
             function sair(){
                 var val = confirm('Tem certeza que deseja sair?');
@@ -576,18 +530,15 @@
                     window.location.href = "index.jsp";
                 }
             }
-            
             function perguntaSalvar(){ 
                 return confirm('Tem certeza que quer salvar?');
             }
-            
             function perguntaCancelar(){ 
                 var val = confirm('Tem certeza que quer cacelar?');
                 if(val){
-                    window.location.href = "ListarClienteCTR";
+                    window.location.href = "ListarCategoriaCTR";
                 }
             }
-
     </script>
 </body>
 

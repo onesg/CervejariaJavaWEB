@@ -77,7 +77,29 @@ public class CategoriaDAO implements GenericDAO{
 
     @Override
     public Boolean _Alterar(Object object) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            CategoriaMODEL categoriaModel = (CategoriaMODEL) object;
+            
+            String SQL = "UPDATE categoria SET "
+                    + "nome_categoria = ?, "
+                    + "descricao_categoria = ?"
+                    + "WHERE id_categoria = ?;";
+
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.stmt.setString(1, categoriaModel.getNome());
+            this.stmt.setString(2, categoriaModel.getDescricao());
+            this.stmt.setInt(3, categoriaModel.getId());
+            this.stmt.executeUpdate();
+
+            System.out.println("\u001B[32mCategoriaDAO - Categoria " + categoriaModel.getNome() + " alterada com sucesso.");
+            return true;
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mCategoriaDAO - Erro ao Alterar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+            return false;
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
     }
 
     @Override

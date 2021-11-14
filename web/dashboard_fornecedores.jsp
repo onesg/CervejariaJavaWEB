@@ -485,6 +485,14 @@
                             </div>
                         </div>
                         <!-- FIM MENSAGEM ERRO EXCLUIR -->
+                    <% }  else if(request.getAttribute("status") != null && request.getAttribute("status").equals("sucesso-alterar")) { %>
+                        <!-- INICIO MENSAGEM SUCESSO ALTERAR -->
+                        <div class="flex items-center p-4 bg-white rounded-lg shadow-xs dark:bg-green-500">
+                            <div>
+                                <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">${mensagem}</p>
+                            </div>
+                        </div>
+                        <!-- FIM MENSAGEM SUCESSO ALTERAR -->
                     <% } %>
                     </div>
                     
@@ -557,6 +565,7 @@
                                             <div class="flex items-center space-x-4 text-sm">
 
                                                 <!-- INICIO BOTAO EDITAR -->
+                                                <a href="CarregarFornecedorCTR?id=${fornecedor.id}">
                                                 <button
                                                     class="flex items-center justify-between px-2 py-2 text-sm font-medium leading-5 text-purple-600 rounded-lg dark:text-gray-400 focus:outline-none focus:shadow-outline-gray"
                                                     aria-label="Edit" @click="">
@@ -567,6 +576,7 @@
                                                         </path>
                                                     </svg>
                                                 </button>
+                                                </a>
                                                 <!-- FIM BOTAO EDITAR -->
 
                                                 <!-- INICIO BOTAO EXCLUIR -->
