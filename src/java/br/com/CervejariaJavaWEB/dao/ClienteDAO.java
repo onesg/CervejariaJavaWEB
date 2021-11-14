@@ -81,7 +81,29 @@ public class ClienteDAO implements GenericDAO {
 
     @Override
     public Boolean _Alterar(Object object) throws Exception {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        try {
+            ClienteMODEL clienteModel = (ClienteMODEL) object;
+            
+            String SQL = "UPDATE cliente SET nome_cliente = ?, email_cliente = ?, telefone_cliente = ?, login_cliente = ?, senha_cliente = ? WHERE id_cliente = ?;";
+
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.stmt.setString(1, clienteModel.getNome());
+            this.stmt.setString(2, clienteModel.getEmail());
+            this.stmt.setString(3, clienteModel.getTelefone());
+            this.stmt.setString(4, clienteModel.getLogin());
+            this.stmt.setString(5, clienteModel.getSenha());
+            this.stmt.setInt(6, clienteModel.getId());
+            this.stmt.executeUpdate();
+
+            System.out.println("\u001B[32mClienteDAO - Cliente " + clienteModel.getNome() + " alterado com sucesso.");
+            return true;
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mClienteDAO - Erro ao Alterar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+            return false;
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
     }
 
     @Override

@@ -20,7 +20,7 @@ public class CarregarClienteCTR extends HttpServlet {
             GenericDAO dao = new ClienteDAO();
             
             request.setAttribute("cliente", dao._Carregar(Integer.parseInt(request.getParameter("id"))));
-            request.getRequestDispatcher("ListarClienteCTR").forward(request, response);
+            request.getRequestDispatcher("dashboard_clientes_edit.jsp").forward(request, response);
             
         } catch (Exception ex) {
             System.out.println("\u001B[31mCarregarClienteCTR - Erro ao carregar cliente!! \n\nErro: " + ex.getMessage());
