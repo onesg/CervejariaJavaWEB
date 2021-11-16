@@ -118,6 +118,8 @@ public class CategoriaDAO implements GenericDAO{
             System.out.println("\u001B[31mCategoriaDAO - Erro ao Excluir. \n\nErro: " + ex.getMessage());
             ex.printStackTrace();
             return false;
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
         }
     }
 

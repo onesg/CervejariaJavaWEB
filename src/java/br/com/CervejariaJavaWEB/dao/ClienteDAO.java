@@ -128,6 +128,8 @@ public class ClienteDAO implements GenericDAO {
             System.out.println("\u001B[31mClienteDAO - Erro ao Excluir. \n\nErro: " + ex.getMessage());
             ex.printStackTrace();
             return false;
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
         }
     }
 

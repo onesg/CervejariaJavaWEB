@@ -14,6 +14,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import javax.servlet.http.HttpSession;
+
 @WebServlet(name = "LogarAdminCTR", urlPatterns = {"/LogarAdminCTR"})
 public class LogarAdminCTR extends HttpServlet {
 
@@ -57,6 +59,8 @@ public class LogarAdminCTR extends HttpServlet {
             }
             if (user == true && pass == true) {
                 //  PODE IR PARA DASHBOARD
+                HttpSession session = request.getSession(true); //  SESSÃO CRIADA
+                session.setAttribute("sessaoAdmin", objAdminModel.getLogin());    //  SALVANDO NOME DO ADMIN NO ATRIBUTO
                 request.getRequestDispatcher("dashboard.jsp").forward(request, response);
             } else {
                 //  NAO PODE, VOLTAR PARA LOGIN

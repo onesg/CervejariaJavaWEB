@@ -51,4 +51,6 @@
  - [x] Quando não existia nenhum admin cadastrado, ao tentar logar não exibia nenhuma mensagem.
  - [x] Adicionar método temporário para sair da página de dashboard ao clicar em sair.
  - [x] Adicionar confirmação ao tentar cadastrar ou excluir clientes, fornecedores e categorias.
- - [ ] Adicionar `finally` nos métodos excluir.
+ - [x] Adicionar `finally` nos métodos excluir.
+ - [x] Adicionar sessão quando administrador logar.
+ - [ ] Criar logout.
