@@ -799,7 +799,7 @@
             function sair(){
                 var val = confirm('Tem certeza que deseja sair?');
                 if(val){
-                    window.location.href = "index.jsp";
+                    window.location.href = "DeslogarAdminCTR";
                 }
             }
         </script>

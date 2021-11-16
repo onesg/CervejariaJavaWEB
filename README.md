@@ -44,7 +44,6 @@
 #### Bugs ou correções ####
  - [x] Adicionar campo para confirmar senha no registro de administrador.
  - [x] Remover possibilidade de cadastrar 2 administradores iguais.
- - [ ] Verificar tempo entre conexões no `test3.java`
  - [x] Quando cadastrar algo, já fazer a listagem na mesma tela.
  - [x] Verificar os nomes dos forms de administradores e clientes.
  - [x] Adicionar limite 64 nos campos de login e registro
@@ -53,4 +52,4 @@
  - [x] Adicionar confirmação ao tentar cadastrar ou excluir clientes, fornecedores e categorias.
  - [x] Adicionar `finally` nos métodos excluir.
  - [x] Adicionar sessão quando administrador logar.
- - [ ] Criar logout.
+ - [x] Criar logout e implementar no botão sair.
