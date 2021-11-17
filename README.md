@@ -9,6 +9,7 @@
  - Abra o Netbeans.
  - Na aba `Arquivo` clique no subitem `Abrir projeto`.
  - Selecione a pasta onde você salvou o projeto.
+ - obs: Não esqueça de verificar se as configurações da `ConnectionFactory.java` estão corretas.
  - O projeto está pronto para rodar ;)
 ---
 ##### STATUS DO PROJETO: #####
