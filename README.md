@@ -54,3 +54,4 @@
  - [x] Adicionar `finally` nos métodos excluir.
  - [x] Adicionar sessão quando administrador logar.
  - [x] Criar logout e implementar no botão sair.
+ - [x] Implementar filtro de acesso. (precisa fazer login para realizar as operações de administrador).
