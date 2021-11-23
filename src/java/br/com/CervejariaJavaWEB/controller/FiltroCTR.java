@@ -72,6 +72,8 @@ public class FiltroCTR implements Filter {
             "index.jsp",
             "form_register.jsp",
             "form_login.jsp",
+            "test_error.jsp",
+            //"error.jsp",  NAO PRECISA ADICIONAR
             "CadastrarAdminCTR",
             "LogarAdminCTR",
         };

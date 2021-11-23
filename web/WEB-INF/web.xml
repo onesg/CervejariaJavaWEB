@@ -6,10 +6,20 @@
 	 version="3.1">
     <session-config>
         <session-timeout>
-            30
+            30  <!-- TEMPO QUE A SESSÃO FICARÁ ATIVA (TEMPO EM MINUTOS) -->
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>
+            index.jsp   <!-- PÁGINA PRINCIPAL DO PROJETO (PÁGINA INICIAL) -->
+        </welcome-file>
     </welcome-file-list>
+    <error-page>
+        <error-code>
+            404 <!-- CÓDIGO DO ERRO ESPECIFICO -->
+        </error-code> 
+        <location>
+            /error.jsp  <!-- PÁGINA QUE USUÁRIO SERÁ REDIRECIONADO CASO O ERRO OCORRA --> <!-- OBS: NÃO PRECISA ADICIONAR NA EXCESSÃO DE SITES PERMITIDOS -->
+        </location>
+    </error-page>
 </web-app>
