@@ -9,3 +9,6 @@ src/java/br/com/CervejariaJavaWEB/util/test.java
 src/java/br/com/CervejariaJavaWEB/util/test2.java
 src/java/br/com/CervejariaJavaWEB/util/test3.java
 
+# Arquivo que contém autenticação do e-mail e senha para testes
+src/java/br/com/CervejariaJavaWEB/util/AuthenticationEmail.java
+
