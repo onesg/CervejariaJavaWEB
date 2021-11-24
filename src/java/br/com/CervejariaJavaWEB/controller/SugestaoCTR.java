@@ -19,24 +19,23 @@ public class SugestaoCTR extends HttpServlet {
         //  PEGANDO AS INFORMAÇÕES DO FORMULÁRIO
         String nome = request.getParameter("form_sugestao_nome");
         String email = request.getParameter("form_sugestao_email");
-        String telefone = request.getParameter("form_sugestao_telefone");
         String texto = request.getParameter("form_sugestao_texto");
         
         try {
             
             //  TENTANDO ENVIAR O EMAIL
-            SendEmail._enviarEmail(nome, email, telefone, texto);
+            SendEmail._enviarEmail(nome, email, texto);
             
-            request.setAttribute("status", "Sugestão enviada com sucesso.");
-            request.getRequestDispatcher("form_sugestao.jsp").forward(request, response);
+            request.setAttribute("status", "sucesso-sugestao");
+            request.setAttribute("mensagem", "Sugestão enviada com sucesso.");
             
         } catch (Exception ex) {
-            
-            request.setAttribute("status", "Sugestão não foi enviada.");
-            request.getRequestDispatcher("form_sugestao.jsp").forward(request, response);
-            
-            System.out.println("SugestaoCTR - Erro ao enviar sugestão: \n"+ex.getMessage());
+            request.setAttribute("status", "erro-sugestao");
+            request.setAttribute("mensagem", "Sugestão não foi enviada.");
+            System.out.println("\u001B[31mSugestaoCTR - Erro ao enviar sugestão! \n\nErro: "+ex.getMessage());
         }
+        
+        request.getRequestDispatcher("index.jsp").forward(request, response);
         
     }
 

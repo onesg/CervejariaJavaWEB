@@ -17,9 +17,9 @@ public class SendEmail {
     private static final Boolean TLS = true;
     
     //  ASSUNTO ESTÁTICO
-    private static final String EMAIL_SUBJECT = "Sugestão - CervejariaJava";
+    private static final String EMAIL_SUBJECT = "Sugestão - CervejariaJavaWEB";
     
-    public static Boolean _enviarEmail(String d_nome, String d_email, String d_telefone, String d_mensagem) throws EmailException{
+    public static Boolean _enviarEmail(String d_nome, String d_email, String d_mensagem) throws EmailException{
         /*
             Exemplo -> d_nome = nome do destinatário.
         */
@@ -52,10 +52,9 @@ public class SendEmail {
         simpleEmail.addTo(d_email);
         
         //  DEFININDO MENSAGEM
-        simpleEmail.setMsg("Agradeçemos pela sua sugestão "+d_nome+".\n\n"
+        simpleEmail.setMsg("Muito obrigado pela sua sugestão, "+d_nome+"!\n\n"
                             + "Informações:\n"
                             + "E-mail: "+d_email+"\n"
-                            + "Telefone: "+d_telefone+"\n"
                             + "Sugestão: "+d_mensagem+"\n\n"
                             + "Caso sua sugestão seja aprovada e implementada, entraremos em contato. Obrigado!");
         
