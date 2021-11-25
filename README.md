@@ -13,7 +13,7 @@
  - O projeto está pronto para rodar ;)
 ---
 ##### STATUS DO PROJETO: #####
- - [ ] Página principal da Cervejaria
+ - [x] Página principal da Cervejaria
  - [x] Página de login
  - [x] Página de registro
  - [x] Página personalizada de erros
