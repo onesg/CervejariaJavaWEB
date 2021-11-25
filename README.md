@@ -16,8 +16,8 @@
  - [ ] Página principal da Cervejaria
  - [x] Página de login
  - [x] Página de registro
- - [ ] Página personalizada de erros
- - [ ] Página de sugestões
+ - [x] Página personalizada de erros
+ - [x] Implementar formulário de sugestões
  - [x] Dashboard
  - [x] Dashboard de clientes
  - [x] Dashboard de fornecedores
@@ -58,4 +58,4 @@
  - [x] Adicionar sessão quando administrador logar.
  - [x] Criar logout e implementar no botão sair.
  - [x] Implementar filtro de acesso. (precisa fazer login para realizar as operações de administrador).
- - [ ] Arrumar acentuação quando o sistema enviar o e-mail de sugestão.
+ - [x] Arrumar acentuação quando o sistema enviar o e-mail de sugestão.

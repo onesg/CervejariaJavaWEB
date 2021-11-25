@@ -28,6 +28,7 @@ public class SugestaoCTR extends HttpServlet {
             
             request.setAttribute("status", "sucesso-sugestao");
             request.setAttribute("mensagem", "Sugestão enviada com sucesso.");
+            System.out.println("\u001B[32mSugestaoCTR - Sugestão enviada com sucesso.");
             
         } catch (Exception ex) {
             request.setAttribute("status", "erro-sugestao");
