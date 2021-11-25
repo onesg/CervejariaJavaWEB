@@ -182,15 +182,10 @@
             <div class="one-half img" style="background-image: url(./_cervejaria_img/about.jpg);"></div>
             <div class="one-half ftco-animate">
                 <div class="heading-section ftco-animate ">
-                    <h2 class="mb-4">Welcome to <span class="flaticon-pizza">Pizza</span> A Restaurant</h2>
+                    <h2 class="mb-4">Bem-vindo(a) a Cervejaria Java WEB</h2>
                 </div>
                 <div>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would
-                        have been rewritten a thousand times and everything that was left from its origin would be the word
-                        "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing
-                        the copy said could convince her and so it didn’t take long until a few insidious Copy Writers
-                        ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they
-                        abused her for their.</p>
+                    <p>Este site foi desenvolvido utilizando o java para WEB.</p>
                 </div>
             </div>
         </section>
@@ -200,9 +195,8 @@
             <div class="container">
                 <div class="row justify-content-center mb-5 pb-3">
                     <div class="col-md-7 heading-section ftco-animate text-center">
-                        <h2 class="mb-4">Our Services</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live the blind texts.</p>
+                        <h2 class="mb-4">Nossos serviços</h2>
+                        <p>Uma pequena amostra dos nossos serviços prestados.</p>
                     </div>
                 </div>
                 <div class="row">
@@ -212,9 +206,8 @@
                                 <span class="flaticon-diet"></span>
                             </div>
                             <div class="media-body">
-                                <h3 class="heading">Healthy Foods</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+                                <h3 class="heading">Comida vegana</h3>
+                                <p>Se você não frequenta as cervejarias por não ter muitas opções para comer, seus problemas acabaram, aqui nós oferecemos uma grande quantidade de opções para todos os gostos.</p>
                             </div>
                         </div>
                     </div>
@@ -224,9 +217,8 @@
                                 <span class="flaticon-bicycle"></span>
                             </div>
                             <div class="media-body">
-                                <h3 class="heading">Fastest Delivery</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+                                <h3 class="heading">Delivery rápido</h3>
+                                <p>Não quer sair de casa? Peça pela internet e nós entregamos! com prazo máximo de até 30 minutos.</p>
                             </div>
                         </div>
                     </div>
@@ -235,9 +227,8 @@
                             <div class="icon d-flex justify-content-center align-items-center mb-5"><span
                                     class="flaticon-pizza-1"></span></div>
                             <div class="media-body">
-                                <h3 class="heading">Original Recipes</h3>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-                                    unorthographic.</p>
+                                <h3 class="heading">Petiscos à vontade</h3>
+                                <p>Escolha um dos planos acima de 120 reais, e coma à vontade.</p>
                             </div>
                         </div>
                     </div>
@@ -249,531 +240,8 @@
             <div class="container">
                 <div class="row justify-content-center mb-5 pb-3">
                     <div class="col-md-7 heading-section ftco-animate text-center">
-                        <h2 class="mb-4">Hot Pizza Meals</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live the blind texts.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-wrap">
-                <div class="row no-gutters d-flex">
-                    <div class="col-lg-4 d-flex ftco-animate">
-                        <div class="services-wrap d-flex">
-                            <a href="#" class="img" style="background-image: url(./_cervejaria_img/pizza-1.jpg);"></a>
-                            <div class="text p-4">
-                                <h3>Italian Pizza</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-                                </p>
-                                <p class="price"><span>$2.90</span> <a href="#"
-                                                                       class="ml-2 btn btn-white btn-outline-white">Order</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex ftco-animate">
-                        <div class="services-wrap d-flex">
-                            <a href="#" class="img" style="background-image: url(./_cervejaria_img/pizza-2.jpg);"></a>
-                            <div class="text p-4">
-                                <h3>Greek Pizza</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-                                </p>
-                                <p class="price"><span>$2.90</span> <a href="#"
-                                                                       class="ml-2 btn btn-white btn-outline-white">Order</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex ftco-animate">
-                        <div class="services-wrap d-flex">
-                            <a href="#" class="img" style="background-image: url(./_cervejaria_img/pizza-3.jpg);"></a>
-                            <div class="text p-4">
-                                <h3>Caucasian Pizza</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-                                </p>
-                                <p class="price"><span>$2.90</span> <a href="#"
-                                                                       class="ml-2 btn btn-white btn-outline-white">Order</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 d-flex ftco-animate">
-                        <div class="services-wrap d-flex">
-                            <a href="#" class="img order-lg-last"
-                               style="background-image: url(./_cervejaria_img/pizza-4.jpg);"></a>
-                            <div class="text p-4">
-                                <h3>American Pizza</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-                                </p>
-                                <p class="price"><span>$2.90</span> <a href="#"
-                                                                       class="ml-2 btn btn-white btn-outline-white">Order</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex ftco-animate">
-                        <div class="services-wrap d-flex">
-                            <a href="#" class="img order-lg-last"
-                               style="background-image: url(./_cervejaria_img/pizza-5.jpg);"></a>
-                            <div class="text p-4">
-                                <h3>Tomatoe Pie</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-                                </p>
-                                <p class="price"><span>$2.90</span> <a href="#"
-                                                                       class="ml-2 btn btn-white btn-outline-white">Order</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 d-flex ftco-animate">
-                        <div class="services-wrap d-flex">
-                            <a href="#" class="img order-lg-last"
-                               style="background-image: url(./_cervejaria_img/pizza-6.jpg);"></a>
-                            <div class="text p-4">
-                                <h3>Margherita</h3>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia
-                                </p>
-                                <p class="price"><span>$2.90</span> <a href="#"
-                                                                       class="ml-2 btn btn-white btn-outline-white">Order</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
-                    <div class="col-md-7 heading-section text-center ftco-animate">
-                        <h2 class="mb-4">Our Menu Pricing</h2>
-                        <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                        <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and
-                            Consonantia, there live the blind texts.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-1.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Italian Pizza</span></h3>
-                                    <span class="price">$20.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-2.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Hawaiian Pizza</span></h3>
-                                    <span class="price">$29.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-3.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Greek Pizza</span></h3>
-                                    <span class="price">$20.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-4.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Bacon Crispy Thins</span></h3>
-                                    <span class="price">$20.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-5.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Hawaiian Special</span></h3>
-                                    <span class="price">$49.91</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-6.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Ultimate Overload</span></h3>
-                                    <span class="price">$20.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-7.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Bacon Pizza</span></h3>
-                                    <span class="price">$20.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="pricing-entry d-flex ftco-animate">
-                            <div class="img" style="background-image: url(./_cervejaria_img/pizza-8.jpg);"></div>
-                            <div class="desc pl-3">
-                                <div class="d-flex text align-items-center">
-                                    <h3><span>Ham &amp; Pineapple</span></h3>
-                                    <span class="price">$20.00</span>
-                                </div>
-                                <div class="d-block">
-                                    <p>A small river named Duden flows by their place and supplies</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="ftco-gallery">
-            <div class="container-wrap">
-                <div class="row no-gutters">
-                    <div class="col-md-3 ftco-animate">
-                        <a href="#" class="gallery img d-flex align-items-center"
-                           style="background-image: url(./_cervejaria_img/gallery-1.jpg);">
-                            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                <span class="icon-search"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                        <a href="#" class="gallery img d-flex align-items-center"
-                           style="background-image: url(./_cervejaria_img/gallery-2.jpg);">
-                            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                <span class="icon-search"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                        <a href="#" class="gallery img d-flex align-items-center"
-                           style="background-image: url(./_cervejaria_img/gallery-3.jpg);">
-                            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                <span class="icon-search"></span>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 ftco-animate">
-                        <a href="#" class="gallery img d-flex align-items-center"
-                           style="background-image: url(./_cervejaria_img/gallery-4.jpg);">
-                            <div class="icon mb-4 d-flex align-items-center justify-content-center">
-                                <span class="icon-search"></span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="ftco-counter ftco-bg-dark img" id="section-counter"
-                 style="background-image: url(./_cervejaria_img/bg_2.jpg);" data-stellar-background-ratio="0.5">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18 text-center">
-                                    <div class="text">
-                                        <div class="icon"><span class="flaticon-pizza-1"></span></div>
-                                        <strong class="number" data-number="100">0</strong>
-                                        <span>Pizza Branches</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18 text-center">
-                                    <div class="text">
-                                        <div class="icon"><span class="flaticon-medal"></span></div>
-                                        <strong class="number" data-number="85">0</strong>
-                                        <span>Number of Awards</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18 text-center">
-                                    <div class="text">
-                                        <div class="icon"><span class="flaticon-laugh"></span></div>
-                                        <strong class="number" data-number="10567">0</strong>
-                                        <span>Happy Customer</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-3 d-flex justify-content-center counter-wrap ftco-animate">
-                                <div class="block-18 text-center">
-                                    <div class="text">
-                                        <div class="icon"><span class="flaticon-chef"></span></div>
-                                        <strong class="number" data-number="900">0</strong>
-                                        <span>Staff</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="ftco-menu">
-            <div class="container-fluid">
-                <div class="row d-md-flex">
-                    <div class="col-lg-4 ftco-animate img f-menu-img mb-5 mb-md-0"
-                         style="background-image: url(./_cervejaria_img/about.jpg);">
-                    </div>
-                    <div class="col-lg-8 ftco-animate p-md-5">
-                        <div class="row">
-                            <div class="col-md-12 nav-link-wrap mb-5">
-                                <div class="nav ftco-animate nav-pills" id="v-pills-tab" role="tablist"
-                                     aria-orientation="vertical">
-                                    <a class="nav-link active" id="v-pills-1-tab" data-toggle="pill" href="#v-pills-1"
-                                       role="tab" aria-controls="v-pills-1" aria-selected="true">Pizza</a>
-
-                                    <a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab"
-                                       aria-controls="v-pills-2" aria-selected="false">Drinks</a>
-
-                                    <a class="nav-link" id="v-pills-3-tab" data-toggle="pill" href="#v-pills-3" role="tab"
-                                       aria-controls="v-pills-3" aria-selected="false">Burgers</a>
-
-                                    <a class="nav-link" id="v-pills-4-tab" data-toggle="pill" href="#v-pills-4" role="tab"
-                                       aria-controls="v-pills-4" aria-selected="false">Pasta</a>
-                                </div>
-                            </div>
-                            <div class="col-md-12 d-flex align-items-center">
-
-                                <div class="tab-content ftco-animate" id="v-pills-tabContent">
-
-                                    <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel"
-                                         aria-labelledby="v-pills-1-tab">
-                                        <div class="row">
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/pizza-1.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/pizza-2.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/pizza-3.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="v-pills-2" role="tabpanel"
-                                         aria-labelledby="v-pills-2-tab">
-                                        <div class="row">
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/drink-1.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Lemonade Juice</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/drink-2.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Pineapple Juice</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/drink-3.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Soda Drinks</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="v-pills-3" role="tabpanel"
-                                         aria-labelledby="v-pills-3-tab">
-                                        <div class="row">
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/burger-1.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/burger-2.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/burger-3.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="tab-pane fade" id="v-pills-4" role="tabpanel"
-                                         aria-labelledby="v-pills-4-tab">
-                                        <div class="row">
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/pasta-1.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/pasta-2.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-4 text-center">
-                                                <div class="menu-wrap">
-                                                    <a href="#" class="menu-img img mb-4"
-                                                       style="background-image: url(./_cervejaria_img/pasta-3.jpg);"></a>
-                                                    <div class="text">
-                                                        <h3><a href="#">Itallian Pizza</a></h3>
-                                                        <p>Far far away, behind the word mountains, far from the countries
-                                                            Vokalia and Consonantia.</p>
-                                                        <p class="price"><span>$2.90</span></p>
-                                                        <p><a href="#" class="btn btn-white btn-outline-white">Add to
-                                                                cart</a></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="ftco-section">
-            <div class="container">
-                <div class="row justify-content-center mb-5 pb-3">
-                    <div class="col-md-7 heading-section ftco-animate text-center">
-                        <h2 class="mb-4">Recent from blog</h2>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
-                            live the blind texts.</p>
+                        <h2 class="mb-4">Cervejar Artesanais</h2>
+                        <p>Algumas cervejas especialmentes criadas artesanalmente.</p>
                     </div>
                 </div>
                 <div class="row d-flex">
@@ -783,14 +251,8 @@
                                style="background-image: url('./_cervejaria_img/image_1.jpg');">
                             </a>
                             <div class="text py-4 d-block">
-                                <div class="meta">
-                                    <div><a href="#">Sept 10, 2018</a></div>
-                                    <div><a href="#">Admin</a></div>
-                                    <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                                </div>
-                                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia.</p>
+                                <h3 class="heading mt-2"><a href="#">Kit de Cervejas Marston's Pedigree Amber Ale - Compre 4 e Ganhe Copo Grátis</a></h3>
+                                <p>A Marston’s Pedigree é uma bela Amber Ale inglesa. Ela apresenta uma coloração âmbar, aparência brilhante e média formação de espuma. No sensorial traz notas maltadas que lembram casca de pão e biscoito, além de toques frutados e condimentados, proveniente dos lúpulos ingleses. No paladar possui corpo médio e final seco.</p>
                             </div>
                         </div>
                     </div>
@@ -800,14 +262,8 @@
                                style="background-image: url('./_cervejaria_img/image_2.jpg');">
                             </a>
                             <div class="text py-4 d-block">
-                                <div class="meta">
-                                    <div><a href="#">Sept 10, 2018</a></div>
-                                    <div><a href="#">Admin</a></div>
-                                    <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                                </div>
-                                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia.</p>
+                                <h3 class="heading mt-2"><a href="#">Kit de Cervejas Bodebrown - Compre 4 e Ganhe Caldereta Exclusiva</a></h3>
+                                <p>A cerveja Lupulol® Galaxy™ Maracujá e Manga é uma India Pale Lager da cervejaria Bodebrown, que faz um mix do conceito tropical brasileiro e dos estudos das clássicas escolas belgas, alemãs e inglesas. Com 5,5% de teor alcóolico, a Lupulol® Galaxy™ Maracujá e Manga é uma cerveja de amargor médio. No sabor, conta com notas de pães brancos, notas frutadas e leve acidez por conta do maracujá. Já o aroma é repleto de notas tropicais, com destaque para as frutas maracujá e manga. A Bodebrown foi eleita 2x a melhor cervejaria do Brasil.</p>
                             </div>
                         </div>
                     </div>
@@ -817,14 +273,8 @@
                                style="background-image: url('./_cervejaria_img/image_3.jpg');">
                             </a>
                             <div class="text py-4 d-block">
-                                <div class="meta">
-                                    <div><a href="#">Sept 10, 2018</a></div>
-                                    <div><a href="#">Admin</a></div>
-                                    <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                                </div>
-                                <h3 class="heading mt-2"><a href="#">The Delicious Pizza</a></h3>
-                                <p>A small river named Duden flows by their place and supplies it with the necessary
-                                    regelialia.</p>
+                                <h3 class="heading mt-2"><a href="#">Kit de Cervejas Duvel - Compre 4 e Ganhe Taça Exclusiva</a></h3>
+                                <p>Originalmente batizada de Victory Ale, para homenagear e comemorar o fim da primeira guerra mundial, esta cerveja teve seu nome alterado, devido a sua graduação alcoólica. A Duvel é uma cerveja do estilo Belgian Strong Golden Ale, única, com alta carbonatação, ácida e com um dulçor exclusivo. Possui ainda aromas intenso de frutas cristalizadas e a sensação alcoólica desta cerveja é facilmente detectada no paladar.</p>
                             </div>
                         </div>
                     </div>
@@ -855,21 +305,23 @@
                             <div class="form-group">
                                 <textarea name="form_sugestao_texto" id="form_sugestao_texto" cols="30" rows="3" class="form-control" placeholder="Escreva sua sugestão..." maxlength="256" required></textarea>
                             </div>
+                            <% if(request.getAttribute("status") != null ) {%>
                             <div class="form-group">
-                                <% if(request.getAttribute("status") != null && request.getAttribute("status").equals("sucesso-sugestao")){ %>
+                                <% if(request.getAttribute("status").equals("sucesso-sugestao")) { %>
                                 <div class="alert alert-success d-flex align-items-center" role="alert">
                                     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
                                     <use xlink:href="#check-circle-fill" /></svg>
                                     <div>${mensagem}</div>
                                 </div>
-                                <% } else if(request.getAttribute("status") != null && request.getAttribute("status").equals("erro-sugestao")){ %>
+                                <% } else if(request.getAttribute("status").equals("erro-sugestao")){ %>
                                 <div class="alert alert-danger d-flex align-items-center" role="alert">
                                     <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
                                     <use xlink:href="#exclamation-triangle-fill" /></svg>
                                     <div>${mensagem}</div>
                                 </div>
                                 <% } %>
-                            </div>  
+                            </div>
+                            <% } %>
                             <div class="form-group">
                                 <input type="submit" value="Enviar" class="btn btn-primary py-3 px-4">
                             </div>
@@ -883,69 +335,23 @@
             <div class="overlay"></div>
             <div class="container">
                 <div class="row mb-5">
+                    
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                         <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">About Us</h2>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                                there live the blind texts.</p>
-                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                            </ul>
+                            <h2 class="ftco-heading-2">Sobre mim</h2>
+                            <p>Sou apenas uma pessoa simples que gosta de programação ;)</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
-                        <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Recent Blog</h2>
-                            <div class="block-21 mb-4 d-flex">
-                                <a class="blog-img mr-4" style="background-image: url(./_cervejaria_img/image_1.jpg);"></a>
-                                <div class="text">
-                                    <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
-                                    </h3>
-                                    <div class="meta">
-                                        <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                                        <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                                        <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="block-21 mb-4 d-flex">
-                                <a class="blog-img mr-4" style="background-image: url(./_cervejaria_img/image_2.jpg);"></a>
-                                <div class="text">
-                                    <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a>
-                                    </h3>
-                                    <div class="meta">
-                                        <div><a href="#"><span class="icon-calendar"></span> Sept 15, 2018</a></div>
-                                        <div><a href="#"><span class="icon-person"></span> Admin</a></div>
-                                        <div><a href="#"><span class="icon-chat"></span> 19</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
-                        <div class="ftco-footer-widget mb-4 ml-md-4">
-                            <h2 class="ftco-heading-2">Services</h2>
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="py-2 d-block">Cooked</a></li>
-                                <li><a href="#" class="py-2 d-block">Deliver</a></li>
-                                <li><a href="#" class="py-2 d-block">Quality Foods</a></li>
-                                <li><a href="#" class="py-2 d-block">Mixed</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
                         <div class="ftco-footer-widget mb-4">
-                            <h2 class="ftco-heading-2">Have a Questions?</h2>
+                            <h2 class="ftco-heading-2">Tem alguma dúvida?</h2>
                             <div class="block-23 mb-3">
                                 <ul>
-                                    <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain
-                                            View, San Francisco, California, USA</span></li>
-                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
-                                                210</span></a></li>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">R. Vicente Leporace, 2630 - Jardim Trianon, Jales - SP</span></li>
+                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+55 (17) 3621-6911</span></a></li>
                                     <li><a href="#"><span class="icon icon-envelope"></span><span
-                                                class="text">info@yourdomain.com</span></a></li>
+                                                class="text"> fatecjales@fatecjales.edu.br</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -957,9 +363,8 @@
                         <p>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
-                            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
-                            is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                                                                             target="_blank">Colorlib</a>
+                            <script>document.write(new Date().getFullYear());</script> Feito com <i class="icon-heart" aria-hidden="true"></i> por 
+                            <a href="https://github.com/onesg" target="_blank">Gabriel Possar</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
