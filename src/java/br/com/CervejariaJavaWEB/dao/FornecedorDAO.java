@@ -172,4 +172,30 @@ public class FornecedorDAO implements GenericDAO{
         return fornecedorMODEL;
     }
     
+    public Integer _Count() throws Exception {
+        
+        //  CONTADOR DE FORNECEDORES
+        Integer c = 0;
+        
+        try {
+            
+            String SQL = "SELECT COUNT(*) FROM fornecedor;";
+            
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.rs = this.stmt.executeQuery();
+            rs.next();
+            
+            if(rs.getInt("count") != 0){
+                c = rs.getInt("count");
+            }
+            
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mFornecedorDAO - Erro ao Contar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
+        return c;
+    }
+    
 }

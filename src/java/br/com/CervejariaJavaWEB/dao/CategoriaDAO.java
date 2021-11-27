@@ -150,4 +150,30 @@ public class CategoriaDAO implements GenericDAO{
         return categoriaMODEL;
     }
     
+    public Integer _Count() throws Exception {
+        
+        //  CONTADOR DE CATEGORIAS
+        Integer c = 0;
+        
+        try {
+            
+            String SQL = "SELECT COUNT(*) FROM categoria;";
+            
+            this.stmt = this.conn.prepareStatement(SQL);
+            this.rs = this.stmt.executeQuery();
+            rs.next();
+            
+            if(rs.getInt("count") != 0){
+                c = rs.getInt("count");
+            }
+            
+        } catch (Exception ex) {
+            System.out.println("\u001B[31mCategoriaDAO - Erro ao Contar. \n\nErro: " + ex.getMessage());
+            ex.printStackTrace();
+        } finally {
+            ConnectionFactory._desconectar(conn, stmt, rs);
+        }
+        return c;
+    }
+    
 }
