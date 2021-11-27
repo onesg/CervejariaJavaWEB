@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html :class="{ 'theme-dark': dark }" x-data="data()" lang="pt-br">
     <head>
@@ -28,7 +29,7 @@
                         <!-- INICIO ABA DASHBOARD -->
                         <li class="relative px-6 py-3">
                             <span class="absolute inset-y-0 left-0 w-1 bg-purple-600 rounded-tr-lg rounded-br-lg" aria-hidden="true"></span>
-                            <a class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100" href="./dashboard.jsp">
+                            <a class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100" href="ContarCTR">
                                 <svg
                                     class="w-5 h-5"
                                     aria-hidden="true"
@@ -233,7 +234,7 @@
                                 ></span>
                             <a
                                 class="inline-flex items-center w-full text-sm font-semibold text-gray-800 transition-colors duration-150 hover:text-gray-800 dark:hover:text-gray-200 dark:text-gray-100"
-                                href="./dashboard.jsp"
+                                href="ContarCTR"
                                 >
                                 <svg
                                     class="w-5 h-5"
@@ -689,7 +690,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">Clientes</p>
-                                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">NUMBER_CLIENTES</p>
+                                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">${QtdClientes}</p>
                                 </div>
                             </div>
                             <!-- FIM CARTAO CLIENTES -->
@@ -709,7 +710,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">Fornecedores</p>
-                                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">NUMBER_FORNECEDORES</p>
+                                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">${QtdFornecedores}</p>
                                 </div>
                             </div>
                             <!-- FIM CARTAO FORNECEDORES -->
@@ -729,7 +730,7 @@
                                 </div>
                                 <div>
                                     <p class="mb-2 text-sm font-medium text-gray-600 dark:text-gray-400">Categorias</p>
-                                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">NUMBER_CATEGORIA</p>
+                                    <p class="text-lg font-semibold text-gray-700 dark:text-gray-200">${QtdCategorias}</p>
                                 </div>
                             </div>
                             <!-- FIM CARTAO CATEGORIA -->
@@ -738,56 +739,21 @@
                         <!-- FIM CARTOES -->
 
                         <!-- INICIO GRAFICOS -->
-                        <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">Gráficos</h2>
+                        <h4 style="display: inline_block" class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
+                            Esse site foi desenvolvido utilizando Java para WEB ;)</h4>
                         <div class="grid gap-6 mb-8 md:grid-cols-2">
-                            <div
-                                class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
-                                >
-                                <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">Rendimentos</h4>
-                                <canvas id="pie"></canvas>
-                                <div
-                                    class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400"
-                                    >
-                                    <!-- Chart legend -->
-                                    <div class="flex items-center">
-                                        <span
-                                            class="inline-block w-3 h-3 mr-1 bg-blue-500 rounded-full"
-                                            ></span>
-                                        <span>Camisas</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <span
-                                            class="inline-block w-3 h-3 mr-1 bg-teal-600 rounded-full"
-                                            ></span>
-                                        <span>Sapatos</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <span
-                                            class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"
-                                            ></span>
-                                        <span>Mochilas</span>
-                                    </div>
+                            <a class="flex items-center justify-between p-4 mb-8 text-sm font-semibold text-purple-100 bg-purple-600 rounded-lg shadow-md focus:outline-none focus:shadow-outline-purple"
+                                href="https://github.com/onesg/CervejariaJavaWEB">
+                                <div class="flex items-center">
+                                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
+                                        </path>
+                                    </svg>
+                                    <span>Projeto disponível no GitHub.</span>
                                 </div>
-                            </div>
-                            <div class="min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800">
-                                <h4 class="mb-4 font-semibold text-gray-800 dark:text-gray-300">Tráfego</h4>
-                                <canvas id="line"></canvas>
-                                <div class="flex justify-center mt-4 space-x-3 text-sm text-gray-600 dark:text-gray-400">
-                                    <!-- Chart legend -->
-                                    <div class="flex items-center">
-                                        <span
-                                            class="inline-block w-3 h-3 mr-1 bg-teal-600 rounded-full"
-                                            ></span>
-                                        <span>Orgânico</span>
-                                    </div>
-                                    <div class="flex items-center">
-                                        <span
-                                            class="inline-block w-3 h-3 mr-1 bg-purple-600 rounded-full"
-                                            ></span>
-                                        <span>Pago</span>
-                                    </div>
-                                </div>
-                            </div>
+                                <span>Veja mais &RightArrow;</span>
+                            </a>
                         </div>
                         <!-- FIM GRAFICOS -->
                     </div>
