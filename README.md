@@ -1,4 +1,4 @@
-## PROJETO DE JAVA WEB ##
+## PROJETO DE JAVA WEB 🍺 ##
 ##### DISCIPLINA: TÓPICOS ESPECIAIS EM SISTEMAS P/ INTERNET II #####
 ##### PROFESSOR: ANTONIO FIAMENGHI NETO #####
 ##### ALUNO: GABRIEL POSSAR SENO #####
@@ -12,12 +12,14 @@
  - obs: Não esqueça de verificar se as configurações da `ConnectionFactory.java` estão corretas.
  - O projeto está pronto para rodar ;)
 ---
-##### STATUS DO PROJETO: #####
+##### STATUS DO PROJETO: FINALIZADO ✔️ #####
  - [x] Página principal da Cervejaria
  - [x] Página de login
  - [x] Página de registro
  - [x] Página personalizada de erros
- - [x] Implementar formulário de sugestões
+ - [x] Bloquear URL's sem estar logado
+ - [x] Sessões 
+ - [x] Formulário de sugestões na página inicial
  - [x] Dashboard
  - [x] Dashboard de clientes
  - [x] Dashboard de fornecedores
@@ -55,7 +57,6 @@
  - [x] Adicionar método temporário para sair da página de dashboard ao clicar em sair.
  - [x] Adicionar confirmação ao tentar cadastrar ou excluir clientes, fornecedores e categorias.
  - [x] Adicionar `finally` nos métodos excluir.
- - [x] Adicionar sessão quando administrador logar.
  - [x] Criar logout e implementar no botão sair.
  - [x] Implementar filtro de acesso. (precisa fazer login para realizar as operações de administrador).
  - [x] Arrumar acentuação quando o sistema enviar o e-mail de sugestão.
