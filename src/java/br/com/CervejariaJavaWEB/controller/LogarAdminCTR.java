@@ -61,7 +61,7 @@ public class LogarAdminCTR extends HttpServlet {
                 //  PODE IR PARA DASHBOARD
                 HttpSession session = request.getSession(true); //  SESSÃO CRIADA
                 session.setAttribute("sessaoAdmin", objAdminModel.getLogin());    //  SALVANDO NOME DO ADMIN NO ATRIBUTO
-                request.getRequestDispatcher("dashboard.jsp").forward(request, response);
+                request.getRequestDispatcher("ContarCTR").forward(request, response);
             } else {
                 //  NAO PODE, VOLTAR PARA LOGIN
                 if(!error.equals("senha") && !error.equals("404")){     //  NECESSARIO CASO NAO EXISTA NENHUM ADM CADASTRADO
